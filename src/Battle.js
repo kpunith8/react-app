@@ -1,11 +1,14 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { Button } from 'reactstrap';
+import { NavLink } from 'react-router-dom';
 
 const Battle = () => {
   return (
+
     <div>
-      <h1> Battle Page </h1>
-      <Button bsStyle="primary">Click Me!</Button>
+      <NavLink to='/popular'>
+        <Button color="primary">Check who is better!</Button>
+      </NavLink>
     </div>
   );
 };
