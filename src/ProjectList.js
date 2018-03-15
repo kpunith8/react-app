@@ -12,6 +12,7 @@ class ProjectList extends Component {
       todos: [],
     };
   }
+
   getTodos() {
     jquery.ajax({
       url: 'https://jsonplaceholder.typicode.com/todos',
@@ -54,7 +55,7 @@ class ProjectList extends Component {
 
   componentWillMount() {
     this.getProjects();
-    this.getTodos();
+    // this.getTodos();
   }
 
   handleAddProject(project) {

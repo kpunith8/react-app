@@ -11,7 +11,7 @@ const Home = () => {
         <p>Click here to know more.</p>
         <NavLink to='/battle'>
           <p className="lead">
-            <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <button className="btn btn-primary btn-lg">Learn more </button>
           </p>
         </NavLink>
       </div>

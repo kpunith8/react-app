@@ -8,6 +8,7 @@ import App from './App'; // Firebase authentication
 import ModalSample from './ModalSample';
 import Routing from './Routing';
 import FormValidation from './FormValidation';
+import ProjectList from './ProjectList';
 
 const BaseApp = () => (
   <Router>
@@ -17,6 +18,7 @@ const BaseApp = () => (
         <Route path='/modal' component={ModalSample} />
         <Route path='/form-validation' component={FormValidation} />
         <Route path='/routing' component={Routing} />
+        <Route path='/projects' component={ProjectList} />
       </Switch>
     </div>
   </Router>
