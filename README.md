@@ -13,4 +13,5 @@ You can route to following pages,
 1. `http://localhost:3000/form-validation` (used react-strap library),
 2. `http://localhost:3000/modal`, (Using react-strap library)
 3. `http://localhost:3000/projects`, and (used ajax to pull the details)
-4. `http://localhost:3000/routing` (used react-router-dom )
+
+NewApp is added to make use, re-usable input element, switch to test it out

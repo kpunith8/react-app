@@ -9,21 +9,21 @@ import ModalSample from './ModalSample';
 import Routing from './Routing';
 import FormValidation from './FormValidation';
 import ProjectList from './ProjectList';
+import NewApp from './NewApp';
 
 const BaseApp = () => (
   <Router>
     <div>
       <Switch>
-        <Route exact path="/" component={App} />
+        <Route exact path="/" component={NewApp} />
         <Route path='/modal' component={ModalSample} />
         <Route path='/form-validation' component={FormValidation} />
-        <Route path='/routing' component={Routing} />
         <Route path='/projects' component={ProjectList} />
       </Switch>
     </div>
   </Router>
 );
 
-ReactDOM.render(<BaseApp />, document.getElementById('root'));
+ReactDOM.render(<NewApp />, document.getElementById('root'));
 
 registerServiceWorker();
