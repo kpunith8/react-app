@@ -10,6 +10,7 @@ import Routing from './Routing';
 import FormValidation from './FormValidation';
 import ProjectList from './ProjectList';
 import NewApp from './NewApp';
+import App1 from './App1';
 
 const BaseApp = () => (
   <Router>
@@ -24,6 +25,6 @@ const BaseApp = () => (
   </Router>
 );
 
-ReactDOM.render(<NewApp />, document.getElementById('root'));
+ReactDOM.render(<App1 />, document.getElementById('root'));
 
 registerServiceWorker();
